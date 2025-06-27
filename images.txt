@@ -1,0 +1,2 @@
+docker.io/busybox:stable|linux/arm64
+docker.io/curlimages/curl:latest|linux/arm64
