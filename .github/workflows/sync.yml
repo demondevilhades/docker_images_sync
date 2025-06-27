@@ -1,0 +1,21 @@
+name: Sync
+
+on:
+  push:
+    branches: [ "sync" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Initial
+      uses: actions/checkout@v4
+    - name: Login to the target registry
+      run: |
+        docker login "${{ secrets.TARGET_REGISTRY }}" \
+        -u "${{ secrets.TARGET_USERNAME }}" \
+        -p "${{ secrets.TARGET_PASSWORD }}"
+    - name: Sync
+      run: |
+        bash "${{ github.workspace }}/script/sync.sh" \
+        "${{ github.workspace }}/images.txt" "${{ secrets.TARGET_REGISTRY }}" "${{ secrets.TARGET_NAMESPACE }}"
