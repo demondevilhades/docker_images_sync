@@ -1,3 +1,4 @@
 docker.io/busybox:stable|linux/arm64
 docker.io/curlimages/curl:latest|linux/arm64
 registry.k8s.io/ingress-nginx/controller:v1.13.0|linux/arm64
+docker.io/bitnami/minio:2023.9.30-debian-11-r2|linux/arm64
