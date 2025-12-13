@@ -1,5 +1,4 @@
 docker.io/busybox:stable|linux/amd64
 docker.io/curlimages/curl:latest|linux/amd64
 registry.k8s.io/ingress-nginx/controller:v1.13.0|linux/amd64
-docker.io/bitnami/minio:2023.9.30-debian-11-r2|linux/amd64
 docker.io/alpine/curl:latest|linux/amd64
