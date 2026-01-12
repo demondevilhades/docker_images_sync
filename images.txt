@@ -3,3 +3,5 @@ docker.io/curlimages/curl:latest|linux/amd64
 registry.k8s.io/ingress-nginx/controller:v1.13.0|linux/amd64
 docker.io/alpine/curl:latest|linux/amd64
 docker.io/germannewsmaker/myspeed:latest|linux/amd64
+docker.io/coturn/coturn:latest|linux/amd64
+docker.io/cgutman/stuntman-server|linux/amd64
