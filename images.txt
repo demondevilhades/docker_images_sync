@@ -9,3 +9,4 @@ docker.io/postgres:18|linux/amd64
 docker.io/peerjs/peerjs-server|linux/amd64
 docker.io/gethomepage/homepage:v2|linux/amd64
 docker.io/cloudflare/cloudflared|linux/amd64
+docker.io/postgres:18|linux/amd64
